@@ -22,5 +22,4 @@ def health(request):
     return HttpResponse(PageView.objects.count())
 
 def YOUR_VIEW_DEF(request, pk):
-    YOUR_OBJECT.objects.filter(pk=pk).update(views=F('views')+1)
-    return HttpResponseRedirect(request.GET.get('next')))
+    print("BUTTON")
