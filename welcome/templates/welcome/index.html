@@ -209,7 +209,11 @@ pre {
 
 </head>
 <body>
-
+<a target="_blank" 
+    class="btn btn-info pull-right" 
+    href="{% url YOUR_VIEW column_3_item.pk %}/?next={{column_3_item.link_for_item|urlencode:''}}">
+    Check It Out
+</a>
 <section class='container'>
           <hgroup>
             <h1>Welcome to your Django application on OpenShift</h1>
